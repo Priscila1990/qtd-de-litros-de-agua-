@@ -1,0 +1,16 @@
+package projetoqtdlitros;
+import java.util.Scanner;
+public class qtdLitros {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan= new Scanner(System.in);
+int qtdlitros;
+Double contadeagua,valorlitro=0.02;
+System.out.println("Informe a quantidade de litros consumidos");
+qtdlitros=scan.nextInt();
+contadeagua= valorlitro* qtdlitros;
+System.out.println("O valor da conta de água é R$: " + contadeagua);
+	}
+
+}
